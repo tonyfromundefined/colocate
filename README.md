@@ -6,12 +6,13 @@ $ yarn add @colocate/co
 $ yarn add --dev @colocate/webpack-plugin
 ```
 
+- `webpack.config.js`
 ```javascript
-const ColocatePlugin = require('@colocate/webpack-plugin')
+const WebpackColocatePlugin = require('@colocate/webpack-plugin')
 
 module.exports = {
   plugins: [
-    new ColocatePlugin(),
+    new WebpackColocatePlugin(),
   ]
 }
 ```

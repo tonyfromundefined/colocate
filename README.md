@@ -79,7 +79,7 @@ export default Component
 ```
 
 ## To-dos
-- [ ] Code Elimination in `co`
+- [ ] Eliminate codes used in `co` function from original file
   - Reference: https://next-code-elimination.vercel.app/
-- [ ] Create virtual files in `co`
+- [ ] Create virtual files from `co` function
   - Reference: https://github.com/sysgears/webpack-virtual-modules

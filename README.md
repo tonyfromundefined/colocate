@@ -75,3 +75,9 @@ const Component: React.FC = () => {
 
 export default Component
 ```
+
+## To-do
+- [ ] Code Elimination in `colocated`
+  - Reference: https://next-code-elimination.vercel.app/
+- [ ] Create virtual files in `colocated`
+  - Reference: https://github.com/sysgears/webpack-virtual-modules

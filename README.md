@@ -18,14 +18,14 @@ module.exports = {
 
 ## Usage
 
-It transforms from
+It transforms
 
 - `./Component.tsx`
 
 ```tsx
-import { colocated } from '@colocate/colocated'
-import React from 'react'
+import { co } from '@colocate/co'
 import { style } from '@vanilla-extract/css'
+import React from 'react'
 
 const Component: React.FC = () => {
   return (
@@ -33,7 +33,7 @@ const Component: React.FC = () => {
   )
 }
 
-const css = colocated('./[filename].css.ts', () => {
+const css = co('[filename].css', () => {
   const container = style({
     fontSize: '2rem',
   })
@@ -48,7 +48,7 @@ export default Component
 
 to
 
-- `./Component.css.ts`
+- `./Component.css.tsx` (`[filename].css.[ext]`)
 
 ```typescript
 import { style } from '@vanilla-extract/css'
@@ -63,6 +63,7 @@ export {
 ```
 
 - `./Component.tsx`
+
 ```tsx
 import React from 'react'
 import * as css from './Component.css.ts'
@@ -76,8 +77,8 @@ const Component: React.FC = () => {
 export default Component
 ```
 
-## To-do
-- [ ] Code Elimination in `colocated`
+## To-dos
+- [ ] Code Elimination in `co`
   - Reference: https://next-code-elimination.vercel.app/
-- [ ] Create virtual files in `colocated`
+- [ ] Create virtual files in `co`
   - Reference: https://github.com/sysgears/webpack-virtual-modules

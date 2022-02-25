@@ -1,4 +1,4 @@
-# webpack-colocation-plugin
+# @colocate
 
 ## Installation
 ```bash

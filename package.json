@@ -1,0 +1,11 @@
+{
+  "name": "@colocate/monorepo",
+  "packageManager": "yarn@3.2.0",
+  "workspaces": [
+    "transform"
+  ],
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}

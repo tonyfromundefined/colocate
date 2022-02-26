@@ -44,6 +44,48 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT"\
         }]\
       ]],\
+      ["@babel/generator", [\
+        ["npm:7.17.3", {\
+          "packageLocation": "./.yarn/cache/@babel-generator-npm-7.17.3-b206625c17-ddf70e3489.zip/node_modules/@babel/generator/",\
+          "packageDependencies": [\
+            ["@babel/generator", "npm:7.17.3"],\
+            ["@babel/types", "npm:7.17.0"],\
+            ["jsesc", "npm:2.5.2"],\
+            ["source-map", "npm:0.5.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@babel/helper-validator-identifier", [\
+        ["npm:7.16.7", {\
+          "packageLocation": "./.yarn/cache/@babel-helper-validator-identifier-npm-7.16.7-8599fb00fc-dbb3db9d18.zip/node_modules/@babel/helper-validator-identifier/",\
+          "packageDependencies": [\
+            ["@babel/helper-validator-identifier", "npm:7.16.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@babel/parser", [\
+        ["npm:7.17.3", {\
+          "packageLocation": "./.yarn/cache/@babel-parser-npm-7.17.3-1c3b6747e0-311869baef.zip/node_modules/@babel/parser/",\
+          "packageDependencies": [\
+            ["@babel/parser", "npm:7.17.3"],\
+            ["@babel/types", "npm:7.17.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@babel/types", [\
+        ["npm:7.17.0", {\
+          "packageLocation": "./.yarn/cache/@babel-types-npm-7.17.0-3c936b54e4-12e5a28798.zip/node_modules/@babel/types/",\
+          "packageDependencies": [\
+            ["@babel/types", "npm:7.17.0"],\
+            ["@babel/helper-validator-identifier", "npm:7.16.7"],\
+            ["to-fast-properties", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@colocate/monorepo", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -60,6 +102,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./transform/",\
           "packageDependencies": [\
             ["@colocate/transform", "workspace:transform"],\
+            ["@babel/generator", "npm:7.17.3"],\
+            ["@babel/parser", "npm:7.17.3"],\
             ["@types/node", "npm:17.0.21"],\
             ["memfs", "npm:3.4.1"],\
             ["outdent", "npm:0.8.0"],\
@@ -287,6 +331,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["jsesc", [\
+        ["npm:2.5.2", {\
+          "packageLocation": "./.yarn/cache/jsesc-npm-2.5.2-c5acb78804-4dc1907711.zip/node_modules/jsesc/",\
+          "packageDependencies": [\
+            ["jsesc", "npm:2.5.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["memfs", [\
         ["npm:3.4.1", {\
           "packageLocation": "./.yarn/cache/memfs-npm-3.4.1-45d97fd825-6d2f49d447.zip/node_modules/memfs/",\
@@ -311,6 +364,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prettier-npm-2.5.1-58b195b509-21b9408476.zip/node_modules/prettier/",\
           "packageDependencies": [\
             ["prettier", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["source-map", [\
+        ["npm:0.5.7", {\
+          "packageLocation": "./.yarn/cache/source-map-npm-0.5.7-7c3f035429-5dc2043b93.zip/node_modules/source-map/",\
+          "packageDependencies": [\
+            ["source-map", "npm:0.5.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["to-fast-properties", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/to-fast-properties-npm-2.0.0-0dc60cc481-be2de62fe5.zip/node_modules/to-fast-properties/",\
+          "packageDependencies": [\
+            ["to-fast-properties", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\

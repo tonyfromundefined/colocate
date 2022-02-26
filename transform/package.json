@@ -5,6 +5,8 @@
     "test": "node -r tsm ./src/transform.test.ts"
   },
   "dependencies": {
+    "@babel/generator": "^7.17.3",
+    "@babel/parser": "^7.17.3",
     "@types/node": "^17.0.21"
   },
   "devDependencies": {

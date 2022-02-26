@@ -22,7 +22,7 @@ const input: File = {
         container,
       };
     });
-    
+
     export default Component;  
   `.trim(),
 };
